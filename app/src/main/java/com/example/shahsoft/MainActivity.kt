@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val Crops = Crop.genRandomSequence(10)
+        val Crops = Crop.genRandomSequence(5)
         val CropAdapter = RvAdapter(Crops)
         ListView.layoutManager = LinearLayoutManager(this)
         ListView.adapter = CropAdapter

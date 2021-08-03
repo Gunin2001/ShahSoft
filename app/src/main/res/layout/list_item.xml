@@ -34,7 +34,7 @@
                 android:layout_alignParentEnd="true"
                 android:ellipsize="end"
                 android:maxLines="1"
-                tools:text="Task Title"
+                tools:text="Crop"
                 android:textColor="#303030"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -50,7 +50,7 @@
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:visibility="visible"
-                tools:text="22-12-2017" />
+                tools:text="Place" />
 
             <TextView
                 android:id="@+id/txtShowTime"

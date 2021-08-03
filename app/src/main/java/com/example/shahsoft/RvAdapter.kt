@@ -10,9 +10,7 @@ class RvAdapter(val crops: ArrayList<Crop> = ArrayList<Crop>() ): RecyclerView.A
     class RvViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RvViewHolder {
-        TODO("Not yet implemented")
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent , false)
-        return RvViewHolder(itemView)
+        return RvViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent , false))
     }
 
     override fun onBindViewHolder(holder: RvViewHolder, position: Int) {

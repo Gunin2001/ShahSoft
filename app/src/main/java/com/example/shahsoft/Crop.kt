@@ -20,9 +20,9 @@ data class Crop(
             for(i in 1..n)
             {
                 CropArray.add(Crop(
-                    Crop_Name[Random.nextInt()],
-                    Supply[Random.nextInt()],
-                    Random.nextInt(10)*100
+                    Crop_Name[Random.nextInt(0,n+1)],
+                    Supply[Random.nextInt(0,n+1)],
+                    Random.nextInt(0,10)*100
                 ))
             }
             return CropArray
